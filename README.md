@@ -31,7 +31,7 @@ The heart of this plugin is in the AE\Library\Jiji\Console namespace. Is the cor
 "Jiji" can use a JSON file or JSON string as payload for your requests containing a body.
 
 ## INSTRUCTIONS:
-1 - The extension zip is in the build/ directory of [this repository](https://github.com/alexandreelise/plg_system_jiji)
+1 - The extension zip is in the build/ directory of [this repository](https://github.com/alexandreelise/plg_system_jiji/blob/master/build/plg_system_jiji_202103071735.zip)
 2 - Install the Jiji plugin as any other Joomla! 4 extension.
 3 - Follow these instructions
 
