@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+	<name>PLG_SYSTEM_JIJI</name>
+	<author>Alexandre ELISÉ</author>
+	<creationDate>2020-12-30</creationDate>
+	<copyright>Copyright (C) 2020 Alexandre ELISÉ. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>contact@alexandre-elise.fr</authorEmail>
+	<authorUrl>https://coderparlerpartager.fr</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_SYSTEM_JIJI_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="jiji">Jiji.php</filename>
+		<folder>language</folder>
+		<folder>src</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB.plg_system_jiji.ini</language>
+		<language tag="en-GB">en-GB.plg_system_jiji.sys.ini</language>
+		<language tag="fr-FR">fr-FR.plg_system_jiji.ini</language>
+		<language tag="fr-FR">fr-FR.plg_system_jiji.sys.ini</language>
+	</languages>
+</extension>

@@ -1,0 +1,28 @@
+<?php
+declare(strict_types=1);
+
+/**
+ * @package       Endpoint
+ * @author        Alexandre ELISÉ <contact@alexandre-elise.fr>
+ * @copyright (c) 2021 . Alexandre ELISÉ . Tous droits réservés.
+ * @license       GPL-2.0-and-later GNU General Public License v2.0 or later
+ * @link          https://coderparlerpartager.fr
+ * Created Date : 02/01/2021
+ * Created Time : 05:18
+ */
+
+namespace AE\Library\Jiji\Data;
+
+use AE\Library\Jiji\Behavior\UrlableTrait;
+
+\defined('_JEXEC') or die;
+
+/**
+ * @package     AE\Library\Jiji\Data
+ *
+ * @since       version 1.0.0
+ */
+final class Endpoint implements EndpointInterface
+{
+	use UrlableTrait;
+}
