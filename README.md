@@ -32,7 +32,9 @@ The heart of this plugin is in the AE\Library\Jiji\Console namespace. Is the cor
 
 ## INSTRUCTIONS:
 1 - The extension zip is in the build/ directory of [this repository](https://github.com/alexandreelise/plg_system_jiji/blob/master/build/plg_system_jiji_202103071735.zip)
+
 2 - Install the Jiji plugin as any other Joomla! 4 extension.
+
 3 - Follow these instructions
 
 JPATH_ROOT : the root directory of your joomla 4 website. Change this with the revelant directory absolute path
@@ -106,6 +108,7 @@ php JPATH_ROOT/cli/joomla.php -n --base-path=J4X_BASE_PATH --api-token=J4X_API_T
 This must be done in two steps due to [this new way to do it](https://github.com/joomla/joomla-cms/pull/31581)
 
 1 -  Execute the Edit Article Command on the article you want to delete by change it's state to -2 (Trash)
+
 2 - Execute the Delete Article Command on the article you want to delete.
 
 #### Step 1 for Deleting Article
